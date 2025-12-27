@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Kubernetes / Keys (Critical!)
+admin.conf
+kubeconfig
+*.kubeconfig
+.kube/
+*.pem
+*.key
+*.crt
+
+# Environment Variables
+.env
+.env.local
+
+# IDE settings (VS Code, IntelliJ)
+.vscode/
+.idea/
