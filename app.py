@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello! I was deployed via Jenkins to a Kubeadm Cluster!"
+    return "Hello! I was deployed via Jenkins to a Kubeadm Cluster!:v2"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
