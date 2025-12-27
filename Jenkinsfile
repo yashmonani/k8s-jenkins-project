@@ -55,7 +55,7 @@ pipeline {
             steps {
                 script {
                     echo 'Deploying to Kubeadm Cluster...'
-                    withKubeConfig([credentialsId: 'k8s-kubeconfig']) {
+                    withKubeConfig([credentialsId: 'my-k8s-config']) {
                         // 1. Update the image in the deployment file ONLY
                         sh "sed -i 's|IMAGE_NAME|${DOCKER_IMAGE}|g' deployment.yaml"
                         
