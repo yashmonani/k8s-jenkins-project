@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 venv/
 
-# Kubernetes / Keys (Critical!)
+# Kubernetes 
 admin.conf
 kubeconfig
 *.kubeconfig
@@ -16,6 +16,6 @@ kubeconfig
 .env
 .env.local
 
-# IDE settings (VS Code, IntelliJ)
+# IDE settings
 .vscode/
 .idea/
